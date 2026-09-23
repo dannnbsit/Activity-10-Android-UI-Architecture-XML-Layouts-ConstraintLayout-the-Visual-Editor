@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="10">
+    <!-- 30% vertical height (weight = 3) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="Header Banner (30%)"
+        android:gravity="center"
+        android:background="#0F5229"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <!-- 70% vertical height (weight = 7) -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:text="Action Panel (70%)"
+        android:backgroundTint="#F5B800"
+        android:textColor="#000000" />
+</LinearLayout>
